@@ -1,7 +1,5 @@
 'use client'
 import React, { useState, useEffect } from 'react'
-import Navlist from './NavUtils/Navlist'
-import Navlist2 from './NavUtils/Navlist2'
 
 type Props = {
 }

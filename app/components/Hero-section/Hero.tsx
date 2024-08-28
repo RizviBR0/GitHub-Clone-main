@@ -8,7 +8,7 @@ const Hero = (props: Props) => {
     const [hovered1, setHovered1] = useState<boolean>(false)
   return (
     <div className='relative max-w-[1280px] lg:pt-32 md:px-10 mx-auto pt-16'>
-        <img className='absolute hero-drone top-28 w-1/4 h-auto right-0 xl:right-0' width="500" height="326" src="https://github.githubassets.com/images/modules/site/home-campaign/hero-drone.webp" alt="" />
+        <img className='absolute hero-drone top-28 w-1/4 h-auto right-0 xl:right-0' width="500" height="500" src="https://raw.githubusercontent.com/RizviBR0/demo-project/1ccb1058404d0f9712822b0c87582279f8769373/Images/moon.svg" alt="" />
         <div className='flex'>
             <div className='relative '>
                 <img aria-hidden="true" className='' src="https://github.githubassets.com/images/modules/site/home-campaign/lines-hero.svg" width="437" height="637" alt="" />
@@ -23,7 +23,7 @@ const Hero = (props: Props) => {
                 <div style={{ background: 'linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364)', marginLeft:'11px' }} className= " max-md:w-[2px] w-[3px] h-[450px] max-md:h-[650px] max-sm:h-[750px] max-ssm:h-[900px] max-sssm:h-[1150px] line rounded-md"></div>
             </div>
             <div className= ' absolute pt-32 mt-28 max-md:px-4 ml-4 md:ml-12'>
-                <div className='relative md:top-20 mb-[24px]'>
+                {/* <div className='relative md:top-20 mb-[24px]'>
                     <a onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)} href="" className=' border-[1px] border-neutral-600 copilot rounded-full inline-block'>
                         <div className='flex items-center p-3 px-5'>
                             <img className=" d-block w-auto flex-grow-0 flex-shrink-0 mr-6 max-md:mr-3 scale-110" width="44" height="44" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-copilot-x.svg" />
@@ -36,7 +36,7 @@ const Hero = (props: Props) => {
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> */}
                 <h1 className="md:mt-24 lg:mt-28 sm:mt-10 relative z-2 max-md:mb-5 text-[48px] md:text-[72px] max-sm:leading-[60px] max-md:leading-[80px] lg:text-[80px] font-semibold text-white"> Let&apos;s build from&nbsp;here</h1>
                 <p className="relative z-1 text-[24px] md:text-[28px]  lg:text-[32px] leading-[30px] md:leading-[36px] lg:leading-[44px] mb-5 md:mb-12 md:10/12  lg:w-9/12 text-[#7d8590]">
                 Harnessed for productivity. Designed for collaboration. Celebrated for built-in security. Welcome to the platform developers&nbsp;love.

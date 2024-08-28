@@ -47,7 +47,7 @@ const Collaboration = (props: Props) => {
                 </h3>
             </motion.div>
         </div>
-        <img className="w-full h-auto d-block rounded-lg border-[1px] border-[#30363d]  " width="2500" height="1500" loading="lazy" decoding="async" alt="Illustration of project table view with cards grouped by 'Feature planning' phase." src="https://github.githubassets.com/images/modules/site/issues/illo/issues-plan.png"></img>
+        <img className="w-full h-auto d-block rounded-lg border-[1px] border-[#30363d]  " width="2500" height="1500" loading="lazy" alt="" src="https://github.com/RizviBR0/demo-project/blob/main/Images/GradientFrame.png?raw=true"></img>
         <Discount/>
         <div className='flex justify-between items-center'>
             <div className='flex justify-between md:space-x-10 max-md:flex-col'>
